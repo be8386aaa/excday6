@@ -1,0 +1,139 @@
+:root {
+    --Background-color: #1e293b;
+    --Background-dark: #0f172a;
+    --Red: #ea443b;
+    --Green: #16c371;
+    --Text-color: #9da5ab;
+}
+
+.container {
+    Background: var(--Background-color);
+    color: var(--Text-color);
+    width: 700px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 100px;
+}
+
+.header {
+    display: flex;
+}
+
+.content {
+    padding-top: 30px;
+}
+
+.icon {
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+.heading {
+    padding-left: 15px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.first_selection {
+    padding-left: 80px;
+    cursor: pointer;
+
+}
+
+.first_selection h1 {
+    background: var(--Background-dark);
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    border-radius: 15px;
+    height: 45px;
+    width: 60px;
+}
+
+.second_selection {
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.third_selection {
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.add {
+    display: flex;
+}
+
+.add_text>input {
+    font-size: 19px;
+    color: var(--Text-color);
+    border: none;
+    border-bottom: 3px solid var(--Background-dark);
+    background-color: transparent;
+}
+
+.add_button>button {
+    cursor: pointer;
+    border: none;
+    background-color: var(--Background-dark);
+    color: var(--Text-color);
+    border-radius: 12px;
+    width: 60px;
+    height: 45px;
+    margin-left: 268px;
+
+}
+
+.list>li {
+    list-style: none;
+}
+
+.item {
+    display: flex;
+}
+
+.delete {
+    cursor: pointer;
+    color: var(--Red);
+    padding-top: 18px;
+    padding-left: 380px;
+}
+
+.deletee {
+    cursor: pointer;
+    color: var(--Red);
+    padding-top: 18px;
+    padding-left: 415px;
+}
+
+.deleteee {
+    cursor: pointer;
+    color: var(--Red);
+    padding-top: 18px;
+    padding-left: 366px;
+}
+
+.edit {
+    cursor: pointer;
+    color: var(--Green);
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+.editt {
+    cursor: pointer;
+    color: var(--Green);
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+.edittt {
+    cursor: pointer;
+    color: var(--Green);
+    padding-top: 18px;
+    padding-left: 8px;
+}
